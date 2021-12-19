@@ -7,7 +7,7 @@
     "price": 209,
     "reduction": "",
     "description": "Le Sennheiser E865 est un microphone de chant supercardioïde professionnel. Il utilise le meilleur de la technologie des micros électrostatiques établissant un nouveau standard de performances et de qualité.",
-    "image": "../assets/images/meilleures-ventes/micro-ventes.JPG"
+    "image": "./assets/images/meilleures-ventes/micro-ventes.JPG"
   },
   {
     "id": 10,
@@ -17,7 +17,7 @@
     "price": 499,
     "reduction": "",
     "description": "Les toutes nouvelles enceintes actives de la série SRM sont fabriquées sur le concept \"Built-Like-A-Tank\". Héritières de la série SRM, elles sont fabriquées entièrement en bois (15mm). Les quatre modes d'EQ (PA, DJ, Monitor et SOLO) instantanément disponibles et l'anti Larsen permettent une utilisation très simple. Pour terminer, elles sont équipées de deux entrées combo haute impédance permettant la connexion d'un micro ou d'une guitare sans aucun souci d'adaptation de niveau. Les SRM sont le nec plus ultra des enceintes amplifiées.",
-    "image": "../assets/images/meilleures-ventes/enceinte-ventes.JPG"
+    "image": "./assets/images/meilleures-ventes/enceinte-ventes.JPG"
   },
   {
     "id": 11,
@@ -27,7 +27,7 @@
     "price": 389,
     "reduction": "",
     "description": "La série APX est sans nul doute la guitare électro-acoustique la plus populaire du catalogue Yamaha. Avec les modèles APX600FM, ce modèle indémodable est maintenant proposé avec une magnifique table en érable flammé.",
-    "image": "../assets/images/meilleures-ventes/guitare-ventes.JPG"
+    "image": "./assets/images/meilleures-ventes/guitare-ventes.JPG"
   },
   {
     "id": 12,
@@ -37,6 +37,6 @@
     "price": 10,
     "reduction": "",
     "description": "Une technologie de pointe au service de votre son. Avec sa gamme de cordes Slinky Cobalt, Ernie Ball révolutionne une fois de plus le monde de la guitare ! Le principal intérêt du cobalt réside dans son induction magnétique qui se révèle bien supérieure aux alliages à base de fer ou de nickel. Le résultat ? Un niveau de sortie sans précédent, des médiums encore mieux définis, des harmoniques plus riches et une meilleure restitution de l'impact du médiator.",
-    "image": "../assets/images/meilleures-ventes/cordes-ventes.JPG"
+    "image": "./assets/images/meilleures-ventes/cordes-ventes.JPG"
   }
 ]

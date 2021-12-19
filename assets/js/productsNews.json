@@ -7,7 +7,7 @@
     "price": 329,
     "reduction": "",
     "description": "Offrant un univers de sonorités polyphoniques riches d'inspiration analogique dans un espace réduit, le SY-200 vous permet d'intégrer facilement la technologie de synthé expressif pour guitare et basse de BOSS dans tous vos voyages musicaux. S'inspirant de l'expérience amusante et instantanée du célèbre SY-1, cette machine offre un jeu de sons plus étendu, davantage de possibilités de façonnage des sons et 128 mémoires pour stocker vos créations sonores. Deux pédales de commande intégrées permettent de contrôler les performances en temps réel, et vous pouvez aller encore plus loin avec des pédales de commande externes, une pédale d'expression et le MIDI",
-    "image": "../assets/images/nouveautes/effetGuitareNouveaute.JPG"
+    "image": "./assets/images/nouveautes/effetGuitareNouveaute.JPG"
   },
   {
     "id": 6,
@@ -17,7 +17,7 @@
     "price": 1099,
     "reduction": "",
     "description": "La HyVibe Smart guitar de Lâg révolutionne la relation entre les guitaristes et leur instrument favori. Cette guitare intelligente associe une lutherie de haute facture à un système connecté qui permet d'autoamplifier la guitare, de générer des effets ou bien encore de la transformer en enceinte Bluetooth grâce aux vibrations de la caisse.",
-    "image": "../assets/images/nouveautes/guitareNouveaute.jpg"
+    "image": "./assets/images/nouveautes/guitareNouveaute.jpg"
   },
   {
     "id": 7,
@@ -27,7 +27,7 @@
     "price": 699,
     "reduction": "",
     "description": "Le Sound Designer à l'origine de cette banque sonore est allé au plus profond de la synthèse offerte par le KORG opsix. Et comme il le dit lui-même : ce n'est pas un synthé FM, c'est bien plus que de la simple FM. Vous serez surpris d'entendre des sons sonnant comme des analogiques ou comme de la table d'ondes alors que vous êtes censé être uniquement sur un instrument FM.",
-    "image": "../assets/images/nouveautes/pianoNouveaute.JPG"
+    "image": "./assets/images/nouveautes/pianoNouveaute.JPG"
   },
   {
     "id": 8,
@@ -37,6 +37,6 @@
     "price": 128,
     "reduction": "",
     "description": "Le Champion 20 est un ampli guitare de 20 watts compact, facile à utiliser et suffisamment polyvalent pour convenir à tous les styles de jeu. C'est un premier ampli d'étude idéal. Ses contrôles simples, ses excellents effets intégrés et ses sonorités d'amplis polyvalentes permettent d'obtenir aisément le son parfait pour le rock, le blues, le métal, la country, le jazz, etc.",
-    "image": "../assets/images/nouveautes/ampliNouveaute.JPG"
+    "image": "./assets/images/nouveautes/ampliNouveaute.JPG"
   }
 ]
