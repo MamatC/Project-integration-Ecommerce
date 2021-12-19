@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "EAGLETONE",
+    "subtitle": "COMPACT E-TOUCH",
+    "price_before": 279,
+    "price": 199,
+    "reduction": "-29%",
+    "description": "La \"Compact E-Touch\" est une batterie électronique très compacte (à peine plus large qu'un siège de bureau !) et équipée d'une peau Mesh (maille en nylon) pour retranscrire toutes les nuances de jeux. Ce kit vous offre 250 sonorités de batterie et percussions, une connectique très complète, des morceaux d'accompagnement multi-style, un métronome intégré ; tout en somme pour travailler efficacement à la maison mais aussi vous permettre de jouer dans des lieux ou la place manque cruellement.Petit bonus ! Le module fonctionne AUSSI sur batterie interne (jusqu'à 8 heures d'autonomie !)... Soyons fous ! Les guitaristes ne sont plus les seuls à pouvoir jouer sur la plage !",
+    "image": "../assets/images/promos/batterie-electro.JPG"
+  },
+  {
+    "id": 2,
+    "title": "RELOOP",
+    "subtitle": "RP 4000 MK2",
+    "price_before": 315,
+    "price": 285,
+    "reduction": "-10%",
+    "description": "La nouvelle platine vinyle RP 4000 MK2 de Reloop est dotée d’un nouveau panneau avec boutons métalliques tactiles, d’un pitch réglable de grande précision (+/- 8% et +/-16%) et d’un moteur puissant avec couple de démarrage à 1,8 kg/cm. Elle est livrée avec une cellule prémontée Ortofon OM BLACK de haute qualité.",
+    "image": "../assets/images/promos/platine.JPG"
+  },
+  {
+    "id": 3,
+    "title": "FOCAL",
+    "subtitle": "LISTEN PRO",
+    "price_before": 249,
+    "price": 189,
+    "reduction": "-10%",
+    "description": "Son équilibre tonal et sa capacité à retranscrire avec précision l’ensemble du spectre audio en font un véritable allié pour vérifier la qualité de transfert du travail réalisé. De plus, son confort et ses accessoires le rendent extrêmement attrayant pour les professionnels en déplacement. Ce casque surprend par sa qualité sonore et sa dynamique, généralement rencontrées sur des niveaux de prix supérieurs. Les nombreux brevets et technologies exclusives Focal témoignent de l’attention extrême portée à la conception des haut-parleurs par le fabricant français. Une toute nouvelle membrane pour le transducteur a ainsi été développée. Le but : offrir une solution respectant la dynamique du signal originel, tout en reproduisant avec précision les détails contenus dans l’enregistrement, sur l’ensemble du spectre audio. Bien qu’il s’agisse d’un casque fermé, Listen Professional offre un son vivant, tendant à l’écoute ressentie avec un casque semi-ouvert, l’isolation d’un casque fermé en plus.",
+    "image": "../assets/images/promos/casque.JPG"
+  },
+  {
+    "id": 4,
+    "title": "YAMAHA",
+    "subtitle": "YAS-280",
+    "price_before": 1320,
+    "price": 990,
+    "reduction": "-25%",
+    "description": "Le saxophone Yamaha YAS-280 est spécifiquement développé pour les saxophonistes débutants. Son poids léger et sa forme ergonomique en fait l'instrument parfait. Facile à porter et à jouer, La justesse est parfaite et il est facile d’obtenir une très belle sonorité. Le design offre un soutien optimal aux débutants, ce qui facilite grandement les progrès de l'apprentissage et la créativité. Reprenant la conception de base du très célèbre YAS-275, le saxophones YAS-280 propose quelques améliorations comme une nouvelle bague de serrage du bocal et une nouvelle connexion des clés de Si-Do# grave, pour un réglage optimbal et une parfaite projection.",
+    "image": "../assets/images/promos/saxo.JPG"
+  }
+]

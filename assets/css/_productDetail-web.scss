@@ -1,0 +1,10 @@
+@media screen and (min-width: 1200px) {
+  body {
+    .productsDetails {
+      &__card {
+        width: 70%;
+        margin: auto;
+      }
+    }
+  }
+}

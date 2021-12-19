@@ -1,0 +1,54 @@
+@media screen and (min-width: 800px) {
+  body {
+    .container {
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-around;
+      width: 100%;
+      &__bandeau2 {
+        grid-column: 1/-1;
+        grid-row: 1;
+        text-align: center;
+        padding-bottom: 5%;
+        img {
+          width: 30%;
+        }
+        p {
+          width: 50%;
+          margin: auto;
+          color: $blue;
+          font-size: 1.5em;
+        }
+      }
+      &__sectionLeft {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: start;
+        h1 {
+          margin: 0;
+          padding: 0 20px;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+        &__meilleursVentes {
+          padding-top: 30px;
+          &__card {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+            box-shadow: 8px 8px 20px rgb(204, 204, 203);
+            margin-left: 0;
+            width: 100%;
+            a {
+              img {
+                width: 40%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

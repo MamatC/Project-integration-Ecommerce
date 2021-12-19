@@ -1,0 +1,37 @@
+@media screen and (min-width: 800px) {
+  body {
+    .sectionNews {
+      &__nouveautes {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        width: 80%;
+        margin: auto;
+
+        &__card {
+          width: 100%;
+        }
+      }
+      &__bandeau {
+        display: flex;
+        img {
+          width: 50%;
+        }
+      }
+      &__bandeau2 {
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+        img {
+          width: 30%;
+        }
+        p {
+          width: 70%;
+          font-size: 2em;
+          line-height: normal;
+          text-align: left;
+          padding-left: 10%;
+        }
+      }
+    }
+  }
+}

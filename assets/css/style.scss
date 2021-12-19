@@ -1,0 +1,15 @@
+@import './variables';
+@import './header-mobile', './promotions-mobile', './nouveautes-mobile',
+  './meilleuresVentes-mobile', './nouvellesArrivees-mobile',
+  './productDetail-mobile','./productPanier-mobile','./garanties-mobile', './infos-mobile',
+  './footer-mobile';
+@import './header-tab', './promotions-tab', './nouveautes-tab',
+  './meilleuresVentes-tab', './nouvellesArrivees-tab', './productDetail-tab','./productPanier-tab',
+  './garanties-tab', './infos-tab', './footer-tab';
+@import './header-web', './promotions-web', './nouveautes-web',
+  './meilleuresVentes-web', './nouvellesArrivees-web', './productDetail-web','./productPanier-web',
+  './garanties-web', './infos-web', './footer-web';
+
+body {
+  margin: 0;
+}

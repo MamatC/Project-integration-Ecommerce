@@ -1,0 +1,42 @@
+[
+  {
+    "id": 13,
+    "title": "TAMA",
+    "subtitle": "IMPERIALSTAR",
+    "price_before": 899,
+    "price": 829,
+    "reduction": "",
+    "description": "Avec plus de 40 ans d'expérience dans la fabrication de batteries, TAMA sait ce que veulent vraiment les batteurs. Dans cet esprit, nous avons cherché à concevoir un kit abordable mais durable qui a conservé de nombreuses fonctionnalités haut de gamme que vous trouverez dans nos lignes Superstar et Starclassic. Ce que nous avons trouvé, c'est Imperialstar. Chaque aspect du kit de batterie moderne a été examiné de manière exhaustive, réexaminé, puis amélioré avant d'être accepté dans le cadre de la conception Imperialstar.",
+    "image": "../assets/images/nouvelles-arrivees/batterie-arrivees.JPG"
+  },
+  {
+    "id": 14,
+    "title": "ALESIS",
+    "subtitle": "V61",
+    "price_before": 166,
+    "price": 139,
+    "reduction": "",
+    "description": "Cette seconde version du célèbre clavier Alesis V61 a été développée dans l'idée d'offrir une plateforme de production idéale pour tous les home-studistes grâce à son interface épurée mais efficace. Ce V61 MkII met à disposition 61 notes sensibles à la vélocité associées à des boutons de changement d'octave. Pour donner toujours plus d'expressivité au jeu, le V61 est équipé d'une molette de pitch et de modulation, ainsi que de 4 potentiomètres assignables en MIDI.",
+    "image": "../assets/images/nouvelles-arrivees/synthe-arrivees.JPG"
+  },
+  {
+    "id": 15,
+    "title": "STEINBERG",
+    "subtitle": "UR22 MK2",
+    "price_before": 175,
+    "price": 133,
+    "reduction": "",
+    "description": "Faire des enregistrements et composer des morceaux de qualité studio sur votre ordinateur portable ou iPad avec l'interface audio UR22 MKII. Procurant une qualité audio exceptionnelle soutenue par une architecture technologique sophistiquée dans cette sa catégorie de prix, l’interface audio UR22 MKII combine des composants haut de gamme avec des options d’entrées et sorties flexibles et offre ainsi une solution compacte pour la production mobile.",
+    "image": "../assets/images/nouvelles-arrivees/interfaceaudio-arrivees.JPG"
+  },
+  {
+    "id": 16,
+    "title": "MARKBASS",
+    "subtitle": "MB GV 5",
+    "price_before": 749,
+    "price": 699,
+    "reduction": "",
+    "description": "Tête MARK Double Shape Matching -Manche en érable, Profil COMFORT C. Touche 20 cases en érable avec block inlays, Diapason 34\". Sillet 45mm. Corps en Tilleul forme P STYLE. Espacement des cordes 18mm",
+    "image": "../assets/images/nouvelles-arrivees/bass-arrivees.JPG"
+  }
+]

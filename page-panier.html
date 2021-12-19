@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/page-panier.js" defer></script>
+
+    <title>Boîte à musique</title>
+  </head>
+  <body>
+    <header>
+      <!-- NAV BARRE -->
+      <nav>
+        <a href="index.html">
+          <img
+            src="./assets/images/logos/logo-boiteZic.png"
+            alt="logo boîte à musique"
+          />
+        </a>
+
+        <ul>
+          <a href="index.html">
+            <li>ACCUEIL</li>
+          </a>
+          <a href="#">
+            <li>A PROPOS</li>
+          </a>
+          <a href="#">
+            <li>PAGES</li>
+          </a>
+          <a href="#">
+            <li>BOUTIQUE</li>
+          </a>
+          <a href="#">
+            <li>CONTACT</li>
+          </a>
+        </ul>
+
+        <div class="icones">
+          <a href="#" class="icones__loupe">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="125"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </a>
+          <a href="#" class="icones__compte">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-person"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"
+              />
+            </svg>
+          </a>
+          <a href="#" class="icones__compte">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-cart3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+              />
+            </svg>
+          </a>
+        </div>
+        <a href="#" id="burger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <!-- SECTIONS PRODUITS PANIER -->
+    <h1>PANIER</h1>
+    <section class="productsPanier"></section>
+
+    <!-- SECTION GARANTIES -->
+    <section class="garanties">
+      <div>
+        <img src="./assets/images/icones/carton.png" alt="icone carton" />
+        <div>
+          <p>LIVRAISON GRATUITE<span>dés 49€ d'achat</span></p>
+        </div>
+      </div>
+      <div>
+        <img
+          src="./assets/images/icones/carton-retour.png"
+          alt="icone carton"
+        />
+        <p>RETOUR SOUS 30 JOURS</p>
+      </div>
+      <div>
+        <img src="./assets/images/icones/carte-credit.png" alt="icone carton" />
+        <p>PAIEMENT SECURISE</p>
+      </div>
+      <div>
+        <img src="./assets/images/icones/phone.png" alt="icone carton" />
+        <p>SUPPORT 24/7<span>au 03 52 86 94 65</span></p>
+      </div>
+    </section>
+
+    <!-- SECTION INFOS -->
+    <section class="sectionInfos">
+      <div>
+        <h4>CATEGORIES</h4>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+      </div>
+      <div>
+        <h4>LIENS</h4>
+        <a href="#"><p>News</p></a>
+        <a href="#"><p>A propos</p></a>
+        <a href="#"><p>Support</p></a>
+        <a href="#"><p>Boutique</p></a>
+        <a href="#"><p>Nous contacter</p></a>
+      </div>
+      <div>
+        <h4>HORAIRES</h4>
+        <p>Lundi au vendredi 8h-20h</p>
+        <p>Samedi 10h-20h</p>
+        <p>Dimanche 12h-20h</p>
+      </div>
+      <div>
+        <h4>APPELEZ-NOUS AU<span>555-5496</span></h4>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Copyright 2021</p>
+      <a href="#">Politique de Confidentialité</a>
+      <a href="#">Conditions Générales de Vente</a>
+    </footer>
+  </body>
+</html>

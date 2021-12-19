@@ -1,0 +1,21 @@
+@media screen and (min-width: 800px) {
+  body {
+    .productsPanier {
+      &__grid {
+        grid-template-columns: repeat(7, 1fr);
+        padding-bottom: 0%;
+        width: 90%;
+        margin: auto;
+        margin-top: 10%;
+        div {
+          img {
+            padding: 5px 0;
+          }
+          input {
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+}

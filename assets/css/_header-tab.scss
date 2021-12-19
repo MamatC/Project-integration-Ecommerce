@@ -1,0 +1,20 @@
+@media screen and (min-width: 800px) {
+  body {
+    header {
+      nav {
+        a {
+          width: 15%;
+        }
+        ul{
+          display: none;
+        }
+        .icones{
+          display: none;
+        }
+        #burger {
+          width: 10%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+body {
+  footer {
+    border-top: 1px solid black;
+    font-weight: bold;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    p {
+      margin: 10px 0 0 10px;
+    }
+    a {
+      margin-left: 10px;
+      display: block;
+      line-height: 20px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

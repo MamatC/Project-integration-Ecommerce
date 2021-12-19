@@ -1,0 +1,61 @@
+@media screen and (min-width: 1200px) {
+  body {
+    .container {
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+      &__bandeau2 {
+        grid-column: 1;
+        grid-row: 1;
+        width: 100%;
+        img {
+          width: 80%;
+        }
+        p {
+          font-size: 2em;
+          color: $blue;
+          width: 100%;
+          text-align: left;
+        }
+      }
+      &__sectionLeft {
+        grid-column: 2;
+        grid-row: 1;
+        width: 100%;
+        h1 {
+          border-radius: 10px;
+        }
+        &__meilleursVentes {
+          padding: 30px 0 0 0;
+          &__card {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            box-shadow: -8px 8px 20px rgb(204, 204, 203);
+            border-radius: 10px;
+            a {
+              width: 50%;
+              text-align: center;
+              img {
+                border-radius: 10px;
+                width: 60%;
+              }
+            }
+            &__text {
+              width: 50%;
+              text-align: left;
+              p {
+                line-height: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

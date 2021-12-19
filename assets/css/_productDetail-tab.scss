@@ -1,0 +1,29 @@
+@media screen and (min-width: 800px) {
+  body {
+    .productsDetails {
+      &__card {
+        img {
+          width: 80%;
+        }
+        &__text {
+          form {
+            #valeurInput {
+              width: 10%;
+            }
+            p {
+              text-align: center;
+              padding-top: 20px;
+              a {
+                padding: 5px;
+                border: gray 1px solid;
+                border-radius: 5px;
+                background-color: rgb(238, 238, 238);
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

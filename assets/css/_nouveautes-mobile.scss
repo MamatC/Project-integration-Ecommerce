@@ -1,0 +1,77 @@
+body {
+  .sectionNews {
+    &__nouveautes {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+      padding: 50px 10px 0 10px;
+      text-align: center;
+      a {
+        text-decoration: none;
+      }
+      &__card {
+        border-radius: 10px;
+        box-shadow: 0px 8px 20px rgb(204, 204, 203);
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        img {
+          padding-top: 5%;
+          padding-bottom: 5%;
+          width: 80%;
+        }
+        &__flex {
+          display: flex;
+          justify-content: space-around;
+          &__text {
+            padding-left: 5px;
+            color: black;
+            text-align: left;
+            h2 {
+              font-size: 20px;
+              font-weight: bold;
+            }
+            h3 {
+              font-size: 15px;
+            }
+            p {
+              line-height: 5px;
+            }
+          }
+          &__bottom {
+            p {
+              font-weight: bold;
+              color: white;
+              background: $red;
+              padding: 0 5px;
+              line-height: normal;
+            }
+            &__panier {
+              display: flex;
+              justify-content: space-around;
+              svg {
+                color: $green;
+              }
+            }
+          }
+        }
+      }
+    }
+    &__bandeau {
+      padding: 10% 0;
+      img {
+        width: 100%;
+      }
+    }
+    &__bandeau2 {
+      display: flex;
+      align-items: center;
+      padding: 0 10px 50px 10px;
+      p {
+        color: $blue;
+        padding: 0 10px;
+        line-height: 20px;
+      }
+    }
+  }
+}
